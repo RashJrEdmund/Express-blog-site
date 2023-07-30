@@ -1,0 +1,21 @@
+<!-- It is in here that our pages will be fitted. bcs it's this main file that is sent to the user -->
+<!-- It is here that we'll be adding the actuall content of our pages -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= locals.title %></title>
+    <meta name="description" content="<%= locals.description %>" >
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" defer src="/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <%- include('../components/header.ejs') %>
+        <%- body %>
+        <%- include('../components/footer.ejs') %>
+    </div>
+</body>
+</html>
