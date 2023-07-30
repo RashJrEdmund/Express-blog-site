@@ -1,0 +1,24 @@
+// this stylesheet is linked to the main layout
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --black: #1c1c1c;
+    --gray: #7e7e7e;
+    --gray-white: #e4e4e4;
+    --red: #b30000;
+    --font-size-base: 1rem;
+    --font-size-md: clamp(1.24rem, 0.61vw + 1.1rem, 1.58rem);
+    --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem);
+    --border-radius: 10px;
+}
+
+body {
+    background-color: #00000023;
+    color: green;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-size: var(--font-size-base);
+    background-color: #faf5ee;
+    // background-image: ;
+}
