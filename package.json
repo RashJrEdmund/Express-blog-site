@@ -1,5 +1,5 @@
 {
-  "name": "learning-ejs",
+  "name": "blog-site_learning-ejs",
   "version": "1.0.0",
   "description": "this app is meant for learning how to template my html in an express app",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "app.js",
     "app:watch": "nodemon app.js",
-    "sass:watch": "sass --watch scss:public/css",
+    "sass:watch": "sass --watch scss:public/styles",
     "dev": "run-p app:watch sass:watch"
   },
   "keywords": [],

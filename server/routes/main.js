@@ -9,7 +9,10 @@ router.get("/", (req, res) => {
 
 
     res.render("pages/index", {locals}) // this automatically searches in the views directory
-    /* The res.render() function is used to render a view and sends the rendered HTML string to the client. */
+    /* 
+        The res.render() function is used to render a view and sends the rendered HTML string to the client.
+        so i'm currently rendering the index page as our index route
+    */
 })
 
 router.get("/about", (req, res) => {
